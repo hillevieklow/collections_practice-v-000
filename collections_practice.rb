@@ -26,3 +26,10 @@ def kesha_maker(array)
   end
   kesha_array
 end
+
+def find_a(array)
+  array.find do |word|
+    word.start_with?("a")
+  end
+end
+  
